@@ -35,9 +35,6 @@ I’m building a more connected way for businesses to run: a platform for operat
 - **Connected workflows** — fewer handoffs, repeated entries and disconnected tools.
 - **Software people can adapt** — practical systems that grow with the operation instead of forcing the operation into a rigid box.
 
-## Current focus
-
-Shipping the Tenxora platform from foundation to applications, then making it possible for teams to configure and extend their own operations with AI.
 
 ## How I think about building
 
