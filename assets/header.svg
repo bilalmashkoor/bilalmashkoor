@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-labelledby="title desc">
+  <title id="title">Bilal Mashkoor — Founder and builder behind Tenxora</title>
+  <desc id="desc">An animated systems map representing connected operations, automation and AI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="55%" stop-color="#0d1c31"/>
+      <stop offset="100%" stop-color="#11152b"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#8b7cf6"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12243a"/>
+      <stop offset="100%" stop-color="#0a1423"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#8aa4c8" stroke-width="1" opacity="0.12"/>
+    </pattern>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="240" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="998" height="238" rx="17" fill="url(#grid)"/>
+  <rect x="24" y="24" width="952" height="192" rx="14" fill="none" stroke="#263d5a" stroke-width="1"/>
+
+  <g opacity="0.34" stroke="#5eead4" stroke-width="1">
+    <path d="M24 74 H976">
+      <animate attributeName="opacity" values="0.15;0.5;0.15" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M24 188 H976">
+      <animate attributeName="opacity" values="0.5;0.15;0.5" dur="6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <text x="52" y="58" fill="#6f8cad" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="2">TENXORA / PERSONAL BUILD LOG</text>
+  <circle cx="948" cy="52" r="5" fill="#5eead4" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="932" y="58" text-anchor="end" fill="#6f8cad" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="1">LIVE</text>
+
+  <text x="52" y="126" fill="#eef6ff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="650" letter-spacing="0.5">Bilal Mashkoor</text>
+  <text x="54" y="157" fill="#5eead4" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3">FOUNDER · BUILDER · OPERATOR</text>
+  <text x="54" y="187" fill="#9fb2c8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">Building Tenxora — work without friction.</text>
+  <rect x="54" y="197" width="126" height="2" rx="1" fill="url(#edge)">
+    <animate attributeName="width" values="48;126;48" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <g transform="translate(715,76)">
+    <rect x="0" y="0" width="224" height="110" rx="12" fill="url(#panel)" stroke="#2d496b"/>
+    <text x="18" y="22" fill="#6f8cad" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" letter-spacing="1.5">OPERATING MODEL</text>
+
+    <g stroke="url(#edge)" stroke-width="1.5" stroke-dasharray="5 5" fill="none" opacity="0.85">
+      <path d="M112 56 L54 38"><animate attributeName="stroke-dashoffset" values="0;-20" dur="2s" repeatCount="indefinite"/></path>
+      <path d="M112 56 L170 38"><animate attributeName="stroke-dashoffset" values="0;-20" dur="2.4s" repeatCount="indefinite"/></path>
+      <path d="M112 56 L54 82"><animate attributeName="stroke-dashoffset" values="0;-20" dur="2.2s" repeatCount="indefinite"/></path>
+      <path d="M112 56 L170 82"><animate attributeName="stroke-dashoffset" values="0;-20" dur="2.6s" repeatCount="indefinite"/></path>
+    </g>
+
+    <g fill="#5eead4" filter="url(#softGlow)">
+      <circle cx="54" cy="38" r="5"><animate attributeName="r" values="4;6;4" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="170" cy="38" r="5"><animate attributeName="r" values="6;4;6" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="54" cy="82" r="5"><animate attributeName="r" values="4;6;4" dur="2.1s" repeatCount="indefinite"/></circle>
+      <circle cx="170" cy="82" r="5"><animate attributeName="r" values="6;4;6" dur="2.8s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <rect x="77" y="39" width="70" height="34" rx="8" fill="#172d46" stroke="#5eead4"/>
+    <text x="112" y="60" text-anchor="middle" fill="#eef6ff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">tenxora.</text>
+    <circle cx="112" cy="56" r="27" fill="none" stroke="#8b7cf6" stroke-width="1" opacity="0.55">
+      <animateTransform attributeName="transform" type="rotate" from="0 112 56" to="360 112 56" dur="9s" repeatCount="indefinite"/>
+    </circle>
+
+    <g fill="#9fb2c8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8">
+      <text x="41" y="30">DATA</text>
+      <text x="160" y="30">AI</text>
+      <text x="33" y="101">PEOPLE</text>
+      <text x="153" y="101">FLOW</text>
+    </g>
+  </g>
+</svg>
